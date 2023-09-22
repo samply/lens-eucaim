@@ -18,7 +18,7 @@
   display: grid;
   /* Angulars Router Outlet is an anchor for inserting components. It will stay, even if component is inserted */
   grid-template-rows: auto 0 1fr auto;
-  grid-gap: .3rem;
+
   height: 100vh;
 }
 
