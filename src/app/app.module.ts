@@ -53,22 +53,23 @@ const routes: Routes = [{ path: '', component: MainComponent }];
   providers: [
     {
       provide: QUERY_TRANSLATOR_TOKEN,
-      useClass: CqlTranslatorService,
+      useClass: CqlTranslatorService
     },
     {
       provide: RESULT_TRANSFORMER_TOKEN,
-      useClass: MeasureTransformerService,
+      useClass: MeasureTransformerService
     },
     {
       provide: CATALOGUE_FETCHER_TOKEN,
-      useClass: TypescriptCatalogueFetcherService,
+      useClass: TypescriptCatalogueFetcherService
     },
     {
       provide: STATIC_CATALOGUE_TOKEN,
-      useValue: staticCatalogue,
+      useValue: staticCatalogue
     },
     ChipTransformPipe,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+
+export class AppModule { }

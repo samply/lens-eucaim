@@ -1,8 +1,10 @@
 :host {
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-gap: .6rem;
+  grid-gap: 20px;
   overflow: hidden;
+  width: 80vw;
+  margin: 100px auto 20px;
 }
 
 div {
@@ -22,4 +24,34 @@ div > div {
   display: grid;
   grid-template-rows: auto 1fr;
   overflow: auto;
+}
+
+.search-bar-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background: #27326b;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+
+.search-bar-wrapper lens-search-bar {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 20px;
+}
+::ng-deep .search-bar-wrapper lens-search-bar div {
+  margin-top: 0!  important;
+}
+
+::ng-deep .p-card {
+  border: solid 1px #27326b;
+}
+
+::ng-deep lens-result-summary-bar, ::ng-deep p-chip .p-chip {
+  background-color: unset!important;
 }
