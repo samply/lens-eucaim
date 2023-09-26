@@ -23,8 +23,11 @@ import {
 
 import {
   CqlTranslatorService,
-  MeasureTransformerService,
 } from '@samply/lens-core/cql';
+
+import {
+  EucaimResultTransformerService
+} from '@samply/lens-core/eucaim'
 
 import { SearchBarModule } from '@samply/lens-components/search-bar';
 import { CriteriaCatalogueModule } from '@samply/lens-components/criteria-catalogue';
@@ -57,7 +60,7 @@ const routes: Routes = [{ path: '', component: MainComponent }];
     },
     {
       provide: RESULT_TRANSFORMER_TOKEN,
-      useClass: MeasureTransformerService
+      useClass: EucaimResultTransformerService
     },
     {
       provide: CATALOGUE_FETCHER_TOKEN,
