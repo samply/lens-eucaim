@@ -18,21 +18,25 @@ export const staticCatalogue: Array<Category> = [
           key: 'M',
           de: 'male',
           en: 'male',
+          display_short: 'male',
         },
         {
           key: 'F',
           de: 'female',
           en: 'female',
+          display_short: 'female',
         },
         {
           key: 'other',
           de: 'other',
           en: 'other',
+          display_short: 'other',
         },
         {
           key: '261665006',
           de: 'unknown',
           en: 'unknown',
+          display_short: 'unknown',
         },
       ]
     ),
@@ -64,23 +68,27 @@ export const staticCatalogue: Array<Category> = [
       [
         {
           key: 'RID10312',
-          de: 'MRI',
-          en: 'MRI',
+          de: 'Magnetic Resonance Imaging',
+          en: 'Magnetic Resonance Imaging',
+          display_short: 'MRI',
         },
         {
           key: 'RID10337',
-          de: 'PET',
-          en: 'PET',
+          de: 'Positron Emission Tomography',
+          en: 'Positron Emission Tomography',
+          display_short: 'PET',
         },
         {
           key: 'RID10334',
-          de: 'SPECT',
-          en: 'SPECT',
+          de: 'Single Photon Emission Computed Tomography',
+          en: 'Single Photon Emission Computed Tomography',
+          display_short: 'SPECT',
         },
         {
           key: 'RID10321',
-          de: 'CT',
-          en: 'CT',
+          de: 'Computed Tomography',
+          en: 'Computed Tomography',
+          display_short: 'CT',
         },
       ]
     ),
