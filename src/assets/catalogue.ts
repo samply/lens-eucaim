@@ -5,7 +5,6 @@ import { Diagnosen } from './diagnosen';
 import { Lokalisation } from './lokalisation';
 import { Manufacturer } from './manufacturer';
 
-
 export const staticCatalogue: Array<Category> = [
   new Category('patient', 'Patient', [
     new Criteria(
@@ -31,7 +30,7 @@ export const staticCatalogue: Array<Category> = [
           en: 'other',
         },
         {
-          key: 'SCTID:261665006',
+          key: '261665006',
           de: 'unknown',
           en: 'unknown',
         },
@@ -46,6 +45,7 @@ export const staticCatalogue: Array<Category> = [
     ),
   ]),
   new Category('clinical', 'Clinical Parameters', [
+    Diagnosen,
     new Criteria(
       'year_of_diagnosis',
       { de: 'Year of Diagnosis', en: 'Year of Diagnosis' },
@@ -53,8 +53,6 @@ export const staticCatalogue: Array<Category> = [
       '',
       ['LOWER_THAN', 'GREATER_THAN', 'BETWEEN']
     ),
-    Diagnosen,
-
   ]),
   new Category('imaging', 'Image Parameters', [
     new Criteria(
@@ -87,6 +85,6 @@ export const staticCatalogue: Array<Category> = [
       ]
     ),
     Lokalisation,
-    Manufacturer
+    Manufacturer,
   ]),
 ];
