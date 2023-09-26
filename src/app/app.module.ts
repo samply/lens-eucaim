@@ -21,13 +21,9 @@ import {
   TypescriptCatalogueFetcherService,
 } from '@samply/lens-core';
 
-import {
-  CqlTranslatorService,
-} from '@samply/lens-core/cql';
+import { CqlTranslatorService } from '@samply/lens-core/cql';
 
-import {
-  EucaimResultTransformerService
-} from '@samply/lens-core/eucaim'
+import { EucaimResultTransformerService } from '@samply/lens-core/eucaim';
 
 import { SearchBarModule } from '@samply/lens-components/search-bar';
 import { CriteriaCatalogueModule } from '@samply/lens-components/criteria-catalogue';
@@ -56,23 +52,22 @@ const routes: Routes = [{ path: '', component: MainComponent }];
   providers: [
     {
       provide: QUERY_TRANSLATOR_TOKEN,
-      useClass: CqlTranslatorService
+      useClass: CqlTranslatorService,
     },
     {
       provide: RESULT_TRANSFORMER_TOKEN,
-      useClass: EucaimResultTransformerService
+      useClass: EucaimResultTransformerService,
     },
     {
       provide: CATALOGUE_FETCHER_TOKEN,
-      useClass: TypescriptCatalogueFetcherService
+      useClass: TypescriptCatalogueFetcherService,
     },
     {
       provide: STATIC_CATALOGUE_TOKEN,
-      useValue: staticCatalogue
+      useValue: staticCatalogue,
     },
     ChipTransformPipe,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-
-export class AppModule { }
+export class AppModule {}
