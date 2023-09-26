@@ -19,21 +19,25 @@ export const staticCatalogue: Array<Category> = [
           key: 'M',
           de: 'male',
           en: 'male',
+          display_short: "male",
         },
         {
           key: 'F',
           de: 'female',
           en: 'female',
+          display_short: "female",
         },
         {
           key: 'other',
           de: 'other',
           en: 'other',
+          display_short: "other",
         },
         {
           key: 'SCTID:261665006',
           de: 'unknown',
           en: 'unknown',
+          display_short: "unknown",
         },
       ]
     ),
@@ -54,7 +58,6 @@ export const staticCatalogue: Array<Category> = [
       ['LOWER_THAN', 'GREATER_THAN', 'BETWEEN']
     ),
     Diagnosen,
-
   ]),
   new Category('imaging', 'Image Parameters', [
     new Criteria(
@@ -68,21 +71,25 @@ export const staticCatalogue: Array<Category> = [
           key: 'RID10312',
           de: 'MRI',
           en: 'MRI',
+          display_short: 'MRI',
         },
         {
           key: 'RID10337',
           de: 'PET',
           en: 'PET',
+          display_short: 'PET',
         },
         {
           key: 'RID10334',
           de: 'SPECT',
           en: 'SPECT',
+          display_short: 'SPECT',
         },
         {
           key: 'RID10321',
           de: 'CT',
           en: 'CT',
+          display_short: 'CT',
         },
       ]
     ),
