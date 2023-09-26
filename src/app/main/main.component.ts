@@ -123,10 +123,11 @@ export class MainComponent {
       }
     ]
 
-  public summaryBar = new ResultRenderer('Ergebnisse', [{ key: 'sites' }, { key: 'patients' }], ResultSummaryBarComponent, { headers: this.summaryBarHeaders, clickDisabled: true, showNegotiationButton: true });
+  public summaryBar = new ResultRenderer('Ergebnisse', [{ key: 'collections' }, { key: 'patients'}], ResultSummaryBarComponent, { headers: this.summaryBarHeaders, clickDisabled: true, showNegotiationButton: true });
 
   public diagrams: ResultRenderer[] = [
-    new ResultRenderer("Patients per collection", [{ key: "sites", subset: '*' }], PieChartComponent, { headers: this.siteHeaders, clickDisabled: true }),
+    new ResultRenderer("Studies per collection", [{ key: "collections", subset: 'studies' }], PieChartComponent, { headers: this.siteHeaders, clickDisabled: true}),
+    // new ResultRenderer("Subjects per collection", [{ key: "collections", subset: 'subjects' }], PieChartComponent, { headers: this.siteHeaders, clickDisabled: true}),
     new ResultRenderer("", [{ key: 'patients', subset: 'sites' }], ResultTableComponent, { headers: this.siteHeaders, clickDisabled: true, displayProperties: ["wide-diagram"] }),
   ]
 
