@@ -1,7 +1,7 @@
 import { Criteria } from '@samply/lens-core';
 
 export const Manufacturer: Criteria = new Criteria(
-  'manufacturer',
+  'C25392',
   {
     de: 'Manufacturer',
     en: 'Manufacturer',

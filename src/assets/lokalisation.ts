@@ -1,7 +1,7 @@
 import { Criteria } from '@samply/lens-core';
 
 export const Lokalisation: Criteria = new Criteria(
-  'body_part',
+  'SNOMEDCT123037004',
   {
     de: 'Body Part',
     en: 'Body Part',
@@ -11,31 +11,31 @@ export const Lokalisation: Criteria = new Criteria(
   ['EQUALS', 'CONTAINS'],
   [
     {
-      key: '76752008',
+      key: 'SNOMEDCT76752008',
       en: '',
       de: 'Beast structure',
       display_short: 'breast',
     },
     {
-      key: '71854001',
+      key: 'SNOMEDCT71854001',
       en: '',
       de: 'Colon structure',
       display_short: 'colon',
     },
     {
-      key: '39607008',
+      key: 'SNOMEDCT39607008',
       en: '',
       de: 'Lung structure',
       display_short: 'lung',
     },
     {
-      key: '12921003',
+      key: 'SNOMEDCT12921003',
       en: '',
       de: 'Pelvic region',
       display_short: 'pelvis',
     },
     {
-      key: '41216001',
+      key: 'SNOMEDCT41216001',
       en: '',
       de: 'Prostatic structure',
       display_short: 'prostate',

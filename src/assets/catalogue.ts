@@ -8,32 +8,32 @@ import { Manufacturer } from './manufacturer';
 export const staticCatalogue: Array<Category> = [
   new Category('patient', 'Patient', [
     new Criteria(
-      'gender',
-      { de: 'Sex', en: 'Sex' },
+      'SNOMEDCT263495000',
+      { de: 'Gender', en: 'Gender' },
       'string',
       '',
       ['IN'],
       [
         {
-          key: 'M',
+          key: 'SNOMEDCT248153007',
           de: 'male',
           en: 'male',
           display_short: 'male',
         },
         {
-          key: 'F',
+          key: 'SNOMEDCT248152002',
           de: 'female',
           en: 'female',
           display_short: 'female',
         },
         {
-          key: 'other',
+          key: 'SNOMEDCT74964007',
           de: 'other',
           en: 'other',
           display_short: 'other',
         },
         {
-          key: '261665006',
+          key: 'SNOMEDCT261665006',
           de: 'unknown',
           en: 'unknown',
           display_short: 'unknown',
@@ -41,8 +41,8 @@ export const staticCatalogue: Array<Category> = [
       ]
     ),
     new Criteria(
-      'age_group',
-      { de: 'Age Group', en: 'Age Group' },
+      'SNOMEDCT423493009',
+      { de: 'Age at Diagnosis', en: 'Age at Diagnosis' },
       'number',
       '',
       ['LOWER_THAN', 'GREATER_THAN', 'BETWEEN']
@@ -51,7 +51,7 @@ export const staticCatalogue: Array<Category> = [
   new Category('clinical', 'Clinical Parameters', [
     Diagnosen,
     new Criteria(
-      'year_of_diagnosis',
+      'SNOMEDCT432213005',
       { de: 'Year of Diagnosis', en: 'Year of Diagnosis' },
       'number',
       '',
@@ -60,7 +60,7 @@ export const staticCatalogue: Array<Category> = [
   ]),
   new Category('imaging', 'Image Parameters', [
     new Criteria(
-      'modality',
+      'RID10311',
       { de: 'Modality', en: 'Modality' },
       'string',
       'urn:oid:2.16.840.1.113883.6.256',
