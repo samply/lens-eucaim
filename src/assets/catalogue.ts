@@ -10,6 +10,7 @@ export const staticCatalogue: Array<Category> = [
     new Criteria(
       'SNOMEDCT263495000',
       { de: 'Gender', en: 'Gender' },
+      "gender",
       'string',
       '',
       ['IN'],
@@ -43,6 +44,7 @@ export const staticCatalogue: Array<Category> = [
     new Criteria(
       'SNOMEDCT423493009',
       { de: 'Age at Diagnosis', en: 'Age at Diagnosis' },
+      "age at diagnosis",
       'number',
       '',
       ['LOWER_THAN', 'GREATER_THAN', 'BETWEEN']
@@ -53,6 +55,7 @@ export const staticCatalogue: Array<Category> = [
     new Criteria(
       'SNOMEDCT432213005',
       { de: 'Year of Diagnosis', en: 'Year of Diagnosis' },
+      "year of diagnosis",
       'number',
       '',
       ['LOWER_THAN', 'GREATER_THAN', 'BETWEEN']
@@ -62,6 +65,7 @@ export const staticCatalogue: Array<Category> = [
     new Criteria(
       'RID10311',
       { de: 'Modality', en: 'Modality' },
+      "modality",
       'string',
       'urn:oid:2.16.840.1.113883.6.256',
       ['IN'],

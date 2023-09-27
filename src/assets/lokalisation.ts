@@ -6,6 +6,7 @@ export const Lokalisation: Criteria = new Criteria(
     de: 'Body Part',
     en: 'Body Part',
   },
+  "body part",
   'string',
   'urn:snomed-org/sct',
   ['EQUALS', 'CONTAINS'],

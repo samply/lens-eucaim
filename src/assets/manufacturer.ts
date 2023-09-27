@@ -6,6 +6,7 @@ export const Manufacturer: Criteria = new Criteria(
     de: 'Manufacturer',
     en: 'Manufacturer',
   },
+  "manufacturer",
   'string',
   'http://bioontology.org/projects/ontologies/birnlex',
   ['IN'],

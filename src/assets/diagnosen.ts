@@ -5,6 +5,7 @@ export const Diagnosen: Criteria = new Criteria(
     en: 'Diagnosis',
     de: 'Diagnosis',
   },
+  "diagnosis",
   'string',
   'urn:snomed-org/sct',
   ['EQUALS', 'CONTAINS'],
