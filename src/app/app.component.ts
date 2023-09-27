@@ -13,7 +13,7 @@ import {
 })
 export class AppComponent {
   constructor(public title: Title) {
-    title.setTitle('Samply.Lens Demo');
+    title.setTitle('EUCAIM Federated Data Explorer');
   }
 
   public primaryButtonColors: primaryButtonColors = {

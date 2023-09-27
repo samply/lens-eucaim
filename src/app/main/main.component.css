@@ -57,3 +57,18 @@ div > div {
 ::ng-deep p-chip .p-chip {
   background-color: unset !important;
 }
+
+.dkfz-footer {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #c2c9d6;
+}
+.dkfz-footer > a {
+  margin-left: -0.3em;
+  margin-right: -0.3em;
+}
