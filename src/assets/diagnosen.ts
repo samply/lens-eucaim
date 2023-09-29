@@ -13,32 +13,32 @@ export const Diagnosen: Criteria = new Criteria(
     {
       key: 'SNOMEDCT363406005',
       en: '',
-      de: 'Malignant tumor of colon',
-      display_short: 'cancer of colon',
+      de: 'Colon Cancer',
+      display_short: 'colon cancer',
     },
     {
       key: 'SNOMEDCT254837009',
       en: '',
-      de: 'Malignant tumor of breast',
+      de: 'Breast Cancer',
       display_short: 'breast cancer',
     },
     {
       key: 'SNOMEDCT363358000',
       en: '',
-      de: 'Malignant tumor of lung',
+      de: 'Lung Cancer',
       display_short: 'lung cancer',
     },
     {
       key: 'SNOMEDCT363484005',
       en: '',
-      de: 'Malignant tumor of pelvis',
+      de: 'Pelvis Cancer',
       display_short: 'pelvis cancer',
     },
     {
       key: 'SNOMEDCT399068003',
       en: '',
-      de: 'Malignant tumor of prostate',
-      display_short: 'cancer of prostate',
+      de: 'Prostate Cancer',
+      display_short: 'prostate cancer',
     },
   ]
 );

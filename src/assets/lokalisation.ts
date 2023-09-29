@@ -14,31 +14,31 @@ export const Lokalisation: Criteria = new Criteria(
     {
       key: 'SNOMEDCT76752008',
       en: '',
-      de: 'Beast structure',
+      de: 'Breast',
       display_short: 'breast',
     },
     {
       key: 'SNOMEDCT71854001',
       en: '',
-      de: 'Colon structure',
+      de: 'Colon',
       display_short: 'colon',
     },
     {
       key: 'SNOMEDCT39607008',
       en: '',
-      de: 'Lung structure',
+      de: 'Lung',
       display_short: 'lung',
     },
     {
       key: 'SNOMEDCT12921003',
       en: '',
-      de: 'Pelvic region',
+      de: 'Pelvis',
       display_short: 'pelvis',
     },
     {
       key: 'SNOMEDCT41216001',
       en: '',
-      de: 'Prostatic structure',
+      de: 'Prostate',
       display_short: 'prostate',
     },
   ]
