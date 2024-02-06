@@ -17,6 +17,12 @@ export const Diagnosen: Criteria = new Criteria(
       display_short: 'colon cancer',
     },
     {
+      key: 'SNOMEDCT363351006',
+      en: '',
+      de: 'Rectal Cancer',
+      display_short: 'rectal cancer',
+    },
+    {
       key: 'SNOMEDCT254837009',
       en: '',
       de: 'Breast Cancer',
@@ -39,6 +45,30 @@ export const Diagnosen: Criteria = new Criteria(
       en: '',
       de: 'Prostate Cancer',
       display_short: 'prostate cancer',
+    },
+    {
+      key: 'SNOMEDCT1156451005',
+      en: '',
+      de: 'Diffuse Intrinsic Pontine Glioma',
+      display_short: 'diffuse intrinsic pontine glioma',
+    },
+    {
+      key: 'SNOMEDCT363510005',
+      en: '',
+      de: 'Cancer of Large Intestine',
+      display_short: 'cancer of large intestine',
+    },
+    {
+      key: 'SNOMEDCT93870000',
+      en: '',
+      de: 'Liver Cancer',
+      display_short: 'liver cancer',
+    },
+    {
+      key: 'SNOMEDCT432328008',
+      en: '',
+      de: 'Neuroblastoma',
+      display_short: 'neuroblastoma',
     },
   ]
 );

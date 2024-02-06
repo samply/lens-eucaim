@@ -74,7 +74,7 @@ export const staticCatalogue: Array<Category> = [
           key: 'RID10312',
           de: 'Magnetic Resonance Imaging',
           en: 'Magnetic Resonance Imaging',
-          display_short: 'MRI',
+          display_short: 'MR',
         },
         {
           key: 'RID10337',
@@ -89,10 +89,40 @@ export const staticCatalogue: Array<Category> = [
           display_short: 'SPECT',
         },
         {
+          key: 'RID10337',
+          de: 'Positron Emission Tomography',
+          en: 'Positron Emission Tomography',
+          display_short: 'PET',
+        },
+        {
           key: 'RID10321',
           de: 'Computed Tomography',
           en: 'Computed Tomography',
           display_short: 'CT',
+        },
+        {
+          key: 'C0012249',
+          de: 'Digital Radiography',
+          en: 'Digital Radiography',
+          display_short: 'digital radiography',
+        },
+        {
+          key: 'C0860950',
+          de: 'Digital Mammography',
+          en: 'Digital Mammography',
+          display_short: 'digital mammography',
+        },
+        {
+          key: 'LP7853-7',
+          de: 'Ultrasound',
+          en: 'Ultrasound',
+          display_short: 'ultrasound',
+        },
+        {
+          key: 'SNOMEDCT363680008',
+          de: 'X-Ray',
+          en: 'X-Ray',
+          display_short: 'x-ray',
         },
       ]
     ),
